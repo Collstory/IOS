@@ -76,7 +76,7 @@ enum Car {
 
 func printGarage() {
     let garage: [Car] = [.toyota, .audi, .ford]
-    print("\nУ МОИХ КОРЕШЕЙ В МОЕЙ ГАРАЖЕ СТОЯТ: ")
+    print("\nМЫ ГОНЯЕМ НА: ")
     for car in garage {
         switch car {
         case .toyota:
